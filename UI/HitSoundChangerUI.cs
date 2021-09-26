@@ -52,7 +52,7 @@ namespace HitSoundChanger.UI
 
         private void HitSoundButtonPressed()
         {
-            //  Logger.logger.Info("Saber Menu Button Pressed");
+            Utilities.Logging.Log.Info("Saber Menu Button Pressed");
             ShowSoundListFlow();
         }
     }
